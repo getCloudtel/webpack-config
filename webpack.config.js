@@ -18,7 +18,7 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, "dist"),
     },
-    port: 3000,
+    port: 3001,
     open: true,
     hot: false,
     compress: true,
@@ -55,7 +55,7 @@ module.exports = {
       title: "Cloudtel App",
       filename: "index.html",
       template: "src/index.html",
-      favicon: 'favicon.icon'
+      favicon: "favicon.ico",
     }),
   ],
 };
