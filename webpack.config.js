@@ -55,6 +55,7 @@ module.exports = {
       title: "Cloudtel App",
       filename: "index.html",
       template: "src/index.html",
+      favicon: 'favicon.icon'
     }),
   ],
 };
